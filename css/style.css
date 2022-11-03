@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: hsl(30, 38%, 92%);
-
 }
 
 body {
@@ -14,19 +12,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .Container {
-    background-color: hsl(0, 0%, 100%);
+    
     justify-content: space-between;
-    width: 500px;
+    width: 550px;
+    
 }
 
 .card {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(124, 124, 124);
-    border-radius: 3px;
+    background-color:hsl(360, 0%, 100%);
+    border: radius 10px;
+    
 }
 
 figure img {
@@ -37,11 +38,13 @@ figure img {
 
 .content
 {
-    margin: 0.5rem 1rem 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0.6rem 0.5rem 0.6rem;
 }
 
 .preTitle {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     padding: 10px 20px 0 20px;
     color: grey;
@@ -52,8 +55,8 @@ figure img {
     font-size: 24px;
     padding: 10px 20px 0 20px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
 }
 
 .paragraph {
@@ -69,12 +72,18 @@ figure img {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 1rem;
-    font-family: 'Montserrat';
+    
 }
 
+.prices h2
+{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%)
+}
 .prices h5 {
     padding: 8px 0 0 0;
     text-decoration: line-through;
+    color: grey;
 }
 
 button
@@ -88,13 +97,18 @@ button
     text-align: center;
     border: 1px solid hsl(158, 36%, 37%);
     background-color: hsl(158, 36%, 37%);
-    color:hsl(30, 38%, 92%);
+    color:hsl(0, 0%, 100%);
 
 }
 footer {
-    text-decoration: none;
+    
     padding: 18rem 0 0 0rem;
     width: 100%;
     position: relative;
     bottom: 0;
+}
+
+footer a
+{
+    text-decoration: none;
 }
