@@ -19,33 +19,41 @@ body {
 .Container {
     background-color: hsl(0, 0%, 100%);
     justify-content: space-between;
-    width: 420px;
+    width: 500px;
 }
 
 .card {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(43, 42, 42);
-    border-radius: 1%;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 3px;
 }
 
-img {
+figure img {
     width: 100%;
-    height: auto;
+    height:100%;
+    overflow: hidden;
 }
 
+.content
+{
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
 
 .preTitle {
     font-size: 14px;
     font-weight: 500;
     padding: 10px 20px 0 20px;
     color: grey;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cardTitle {
     font-size: 24px;
     padding: 10px 20px 0 20px;
     font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .paragraph {
@@ -53,7 +61,7 @@ img {
     font-weight: 500;
     padding: 10px 20px 0 20px;
     color: grey;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .prices {
@@ -69,6 +77,20 @@ img {
     text-decoration: line-through;
 }
 
+button
+{
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 3.5rem 0.5rem 3.5rem;
+    border-radius: 7%;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid hsl(158, 36%, 37%);
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(30, 38%, 92%);
+
+}
 footer {
     text-decoration: none;
     padding: 18rem 0 0 0rem;
