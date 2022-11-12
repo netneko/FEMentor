@@ -43,7 +43,7 @@ figure img {
 }
 
 .preTitle {
-    font-size:0.688rem;
+    font-size:0.67rem;
     font-weight: 500;
     margin: 0.625rem  1.25rem 0 1.25rem;
     color: grey;
@@ -98,10 +98,10 @@ figure img {
 
 button
 {
-    margin: 1rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 0.8rem 1rem;
     padding: 0.8rem 3.2rem 0.8rem 3.2rem;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-size: 0.37;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -116,14 +116,12 @@ button
 
 button img
 {
-    margin-right: 2.5px;
-    margin-bottom: 2px;
+    margin:2px 11.5px 0.9px 0;
     height:13px;
     width: 13px;
 }
 
-.attribution{
-    
+.attribution{  
     padding: 18rem 0 0 0rem;
     width: 100%;
     position: relative;
