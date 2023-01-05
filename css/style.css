@@ -114,9 +114,9 @@ figure img {
 .btn :active
 {
     color: hsl(158, 39%, 28%);
-    border: 0.063rem solid hsl(158, 36%, 37%);
     transition-duration: 0.4s;
 }
+
 .btn img
 {
     margin:0.125rem 0.719rem 0.056rem 0;
