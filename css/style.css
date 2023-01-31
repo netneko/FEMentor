@@ -111,9 +111,9 @@ figure img {
 }
 
 
-.btn :active
+.btn:hover
 {
-    color: hsl(158, 39%, 28%);
+    background-color:hsl(158, 39%, 28%);
     transition-duration: 0.4s;
 }
 
